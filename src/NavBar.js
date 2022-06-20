@@ -8,10 +8,10 @@ const NavBar = () => {
             <Container>
                 <Navbar.Brand><b>Alex Cooksey</b></Navbar.Brand>
                 <Nav align="end" className="ml-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/Projects">Projects</Nav.Link>
-                    <Nav.Link href="/bio">Bio</Nav.Link>
-                    <Nav.Link href="/Contact">Contact</Nav.Link>
+                    <Nav.Link style={{ color: "white" }} href="/"><b>Home</b></Nav.Link>
+                    <Nav.Link style={{ color: "white" }} href="/Projects"><b>Projects</b></Nav.Link>
+                    <Nav.Link style={{ color: "white" }} href="/bio"><b>Bio</b></Nav.Link>
+                    <Nav.Link style={{ color: "white" }} href="/Contact"><b>Contact</b></Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
