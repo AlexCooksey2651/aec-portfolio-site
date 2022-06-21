@@ -11,7 +11,7 @@ const NavBar = () => {
                     <Nav.Link style={{ color: "white" }} href="/"><b>Home</b></Nav.Link>
                     <Nav.Link style={{ color: "white" }} href="/Projects"><b>Projects</b></Nav.Link>
                     <Nav.Link style={{ color: "white" }} href="/bio"><b>Bio</b></Nav.Link>
-                    <Nav.Link style={{ color: "white" }} href="/Contact"><b>Contact</b></Nav.Link>
+                    {/* <Nav.Link style={{ color: "white" }} href="/Contact"><b>Contact</b></Nav.Link> */}
                 </Nav>
             </Container>
         </Navbar>
